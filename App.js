@@ -8,6 +8,7 @@ const input5 = document.querySelector("#five");
 
 const inputs = [input0, input1, input2, input3, input4, input5];
 
+// Create next input 
 const moveFocusToNextInput = (eventOriginationInputNumber) => {
     if (eventOriginationInputNumber === 5) {
         return;
